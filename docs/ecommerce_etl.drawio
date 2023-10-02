@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-10-02T18:03:02.875Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ijzcd_y4_6sTh4zSREPY" version="21.8.2" type="google">
+  <diagram name="Page-1" id="BXjc8qCH9xGvkouL2XjL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uermLm-_2MWs1zGvKEmv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="1080" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-2" value="Ecommerce ETL Project Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="200" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-3" target="uermLm-_2MWs1zGvKEmv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-3" value="ecommerce.csv" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-4" target="uermLm-_2MWs1zGvKEmv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-4" value="Extract.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-5" target="uermLm-_2MWs1zGvKEmv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-5" value="Transform.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-6" target="uermLm-_2MWs1zGvKEmv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-6" value="ecommerce.parquet" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="297.5" width="120" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-7" target="uermLm-_2MWs1zGvKEmv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-7" value="Load.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uermLm-_2MWs1zGvKEmv-8" target="uermLm-_2MWs1zGvKEmv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-8" value="&lt;br&gt;ecommerce.db" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="880" y="315" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uermLm-_2MWs1zGvKEmv-14" value="Analysis.ipynb" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
