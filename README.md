@@ -45,7 +45,7 @@ Follow these steps to set up your environment and run the provided data engineer
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/antoprince001/copilot-dataengineering-python/
+   git clone https://github.com/thoughtworks-hands-on/ecom-etl-data
    ```
 
 2. Navigate to the project directory:
