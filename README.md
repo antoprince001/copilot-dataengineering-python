@@ -1,4 +1,4 @@
-# Copilot Data Engineering Workshop Starter Code
+# Copilot Workshop - Data Engineering Starter Code
 
 Welcome to the Copilot Data Engineering Workshop! This repository provides you with a starter codebase to experiment with various data engineering tasks using Python. 
 
