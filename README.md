@@ -9,6 +9,35 @@ Before you begin, make sure you have the following prerequisites installed on yo
 - Python 3 (Python 3.6 or higher is recommended)
 - `pip` (Python package manager)
 
+
+## Problem Statement
+
+<b>The dataset used for this workshop is publically available [E-commerce Dataset](https://www.kaggle.com/datasets/mervemenekse/ecommerce-dataset) of an American company.</b>
+
+In the context of an E-commerce business operating in America, they have collected a year's worth of transactional data from their customers. They aim to gain deep insights into their customers' online buying habits and identify opportunities for improving their services and revenue. To achieve this, they require your help to perform data transformation and analysis as part of their existing E-commerce ETL pipeline and dataset.
+
+![Project Architecture](./docs/ecommerce_etl.drawio.png)
+
+
+## Dataset columns and meaning
+
+- `Order_Date`: The date the product was ordered.
+- `Aging`: The time from the day the product is ordered to the day it is delivered.
+- `Customer_id`: Unique ID created for each customer.
+- `Gender`: Gender of the customer.
+- `Device_Type`: The device the customer uses to complete the transaction (Web/Mobile).
+- `Customer_Login_Type`: The type of customer login, such as Member, Guest, etc.
+- `Product_Category`: Product category.
+- `Product`: Product description.
+- `Sales`: Total sales amount.
+- `Quantity`: Unit amount of the product.
+- `Discount`: Percent discount rate.
+- `Profit`: Profit generated.
+- `Shipping_cost`: Shipping cost.
+- `Order_Priority`: Order priority, such as critical, high, etc.
+- `Payment_method`: Payment method.
+
+
 ## Getting Started
 
 Follow these steps to set up your environment and run the provided data engineering script:
@@ -43,6 +72,7 @@ Follow these steps to set up your environment and run the provided data engineer
    pip install -r requirements.txt
    ```
 
+   
 ## Running the ETL Script
 
 Now that you have set up your environment, you can run the ETL (Extract, Transform, Load) script to experiment with data engineering tasks.
@@ -52,6 +82,7 @@ To run the ETL script, execute the following command:
 ```bash
 python3 etl.py
 ```
+
 
 ## Working with `transform.py`
 
@@ -72,6 +103,7 @@ pytest tests/jobs/test_transform.py
 ```
 
 6. Make use of Copilot's code suggestions and autocompletion features to make your data transformation tasks more efficient and productive.
+
 
 ## Working with `analysis.ipynb`
 
