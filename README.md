@@ -51,7 +51,7 @@ Follow these steps to set up your environment and run the provided data engineer
 2. Navigate to the project directory:
 
    ```bash
-   cd copilot-dataengineering-python
+   cd ecom-etl-data
    ```
 
 3. Create a virtual environment to isolate project dependencies:
