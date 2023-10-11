@@ -8,6 +8,49 @@ Before you begin, make sure you have the following prerequisites installed on yo
 
 - Python 3 (Python 3.6 or higher is recommended)
 - `pip` (Python package manager)
+- Apache Spark
+- Java
+- Homebrew (for Mac users)
+
+## Apache Spark Installation (Mac)
+
+### 1. Install Homebrew (if not already installed):
+
+Homebrew is a popular package manager for macOS. You can use it to easily install and manage Apache Spark.
+
+Open a terminal and run the following command to install Homebrew if you don't have it already:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+```
+
+### 2. Install Apache Spark:
+Use Homebrew to install Apache Spark:
+
+```sh
+brew install apache-spark
+```
+
+### 3. Configure Environment Variables:
+You may need to set environment variables to use Spark. Open your shell configuration file (e.g., ~/.bashrc, ~/.zshrc, or ~/.bash_profile) and add the following lines:
+
+```sh
+export SPARK_HOME=/usr/local/Cellar/apache-spark/3.x.x/libexec
+export PATH=$SPARK_HOME/bin:$PATH
+```
+
+Replace 3.x.x with the actual version of Apache Spark installed by Homebrew.
+
+### 4. Test Your Installation:
+Open a new terminal window or run source ~/.bashrc (or the appropriate shell configuration file) to apply the changes you made to environment variables.
+
+To verify that Spark is correctly installed and configured, you can start the Spark shell with the following command:
+
+```sh
+spark-shell
+```
+
+This command should start the Spark shell, and you should see the Spark logo and a Scala prompt. You can type Spark commands in this interactive shell.
 
 
 ## Problem Statement
