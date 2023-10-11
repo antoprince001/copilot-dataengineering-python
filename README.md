@@ -109,7 +109,7 @@ The `transform.py` file is a key component of your data engineering pipeline. It
 
 The `analysis.ipynb` file is a Jupyter Notebook where you can perform in-depth data analysis and visualization on your transformed data. Here's how to work with `analysis.ipynb`:
 
-1. Open the `analysis.ipynb` notebook using a Jupyter Notebook tool or run the following command in local terminal.
+1. Open the `analysis.ipynb` notebook using VS code or any other compatible Jupyter Notebook tool. Alternatively, run the following command in local terminal.
    ```bash
    jupyter notebook
 
