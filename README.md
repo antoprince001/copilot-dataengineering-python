@@ -97,10 +97,10 @@ The `transform.py` file is a key component of your data engineering pipeline. It
 4. Optionally, you can consider using [Test-Driven Development (TDD)](https://antoprince001.medium.com/test-driven-development-in-pyspark-3b48f77bca06) principles to ensure the correctness of your data transformations. Write unit tests for your transformation functions in a separate test_transform.py file under `tests/jobs` folder and run the tests regularly.
 
 5. To execute the test suite using pytest, execute the following command
-```bash
-pytest tests/jobs/test_transform.py
-
-```
+   ```bash
+   pytest tests/jobs/test_transform.py
+   
+   ```
 
 6. Make use of Copilot's code suggestions and autocompletion features to make your data transformation tasks more efficient and productive.
 
@@ -109,14 +109,18 @@ pytest tests/jobs/test_transform.py
 
 The `analysis.ipynb` file is a Jupyter Notebook where you can perform in-depth data analysis and visualization on your transformed data. Here's how to work with `analysis.ipynb`:
 
-1. Open the `analysis.ipynb` notebook using a Jupyter Notebook environment or any compatible tool.
+1. Open the `analysis.ipynb` notebook using a Jupyter Notebook tool or run the following command in local terminal.
+   ```bash
+   jupyter notebook
 
-2. Review the existing code to load the transformed data into the notebook.
+   ```
 
-3. Explore the data, perform statistical analysis, and create visualizations to gain insights from your data.
+3. Review the existing code to load the transformed data into the notebook.
 
-4. Feel free to experiment with copilot for different analysis techniques and visualizations to extract valuable information from your data.
+4. Explore the data, perform statistical analysis, and create visualizations to gain insights from your data.
 
-5. Optionally, the tasks in analysis.ipynb can also be done by creating `analysis.py` file. Choose the option that best suits your workflow and preferences for data analysis.
+5. Feel free to experiment with copilot for different analysis techniques and visualizations to extract valuable information from your data.
+
+6. Optionally, the tasks in analysis.ipynb can also be done by creating `analysis.py` file. Choose the option that best suits your workflow and preferences for data analysis.
 
 Happy data engineering with Copilot! 🚀📊
