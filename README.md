@@ -8,6 +8,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 
 - Python 3 (Python 3.6 or higher is recommended)
 - `pip` (Python package manager)
+- Java ( PySpark requires Java 8 or later with JAVA_HOME properly set. )
 
 
 ## Problem Statement
